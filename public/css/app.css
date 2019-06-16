@@ -1,0 +1,85 @@
+* {
+    --blue: #0855a1;
+    --light-blue: #2886e2;
+    --orange: #f4831f;
+    --yellow: #ffc107;
+}
+
+b {
+    color: var(--blue);
+    font-weight: bold;
+}
+
+a {
+    color: #0855a1;
+}
+
+a:focus {
+    color: #042f58;
+}
+
+li.active {
+    font-weight: bold;
+}
+
+.text-blue {
+    color: var(--blue) !important;
+}
+
+.text-orange {
+    color: var(--orange) !important;
+}
+
+a.text-orange:focus {
+    color: rgb(224, 112, 13) !important;
+}
+
+.btn {
+    border: none;
+    border-radius: 0;
+}
+
+.btn-orange {
+    background-color: var(--orange);
+}
+
+.btn-orange:hover {
+    box-shadow: 0 0 0 .1rem var(--orange);
+}
+
+.btn-orange:focus {
+    box-shadow: 0 0 0 .2rem var(--orange);
+}
+
+.btn-blue {
+    background: var(--light-blue);
+}
+
+.btn-blue:hover {
+    box-shadow: 0 0 0 .1rem var(--light-blue);
+}
+
+.btn-blue:focus {
+    box-shadow: 0 0 0 .2rem var(--light-blue);
+}
+
+.btn-yellow {
+    background: var(--yellow);
+}
+
+.btn-yellow:hover {
+    box-shadow: 0 0 0 .1rem var(--yellow);
+}
+
+.btn-yellow:focus {
+    box-shadow: 0 0 0 .2rem var(--yellow);
+}
+
+.icon {
+    vertical-align: text-top;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+}

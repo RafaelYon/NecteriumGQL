@@ -1,0 +1,18 @@
+version: '2.0'
+
+services:
+   db:
+     image: mysql:5.7
+     volumes:
+       - necterium:/home/rafael/docker/mysql
+     restart: always
+     environment:
+       MYSQL_ROOT_PASSWORD: necterium
+       MYSQL_DATABASE: necterium
+       MYSQL_USER: necterium
+       MYSQL_PASSWORD: necterium
+     ports:
+       - "3306:3306"
+
+volumes:
+     necterium:
